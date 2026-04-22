@@ -1,0 +1,25 @@
+{
+  "name": "blockchain-lab-assignments",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Blockchain lab assignments using Solidity, Hardhat, MetaMask, Polygon, and IPFS",
+  "scripts": {
+    "compile": "hardhat compile",
+    "clean": "hardhat clean",
+    "node": "hardhat node",
+    "deploy:local": "hardhat run scripts/deploy-local.js --network localhost",
+    "deploy:polygon": "hardhat run assignment-2/deploy-polygon.js --network polygonAmoy",
+    "deploy:cid": "hardhat run assignment-4/deploy-cid-registry.js --network polygonAmoy",
+    "deploy:dao": "hardhat run assignment-5/deploy-dao.js --network polygonAmoy",
+    "ipfs:upload": "node assignment-4/ipfsIntegration.js"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "dotenv": "^16.4.5",
+    "hardhat": "^2.22.10"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "form-data": "^4.0.0"
+  }
+}

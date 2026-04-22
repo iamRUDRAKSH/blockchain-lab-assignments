@@ -1,0 +1,2 @@
+This is a sample file for Assignment 4 IPFS upload.
+Replace with your own file before final submission if needed.
