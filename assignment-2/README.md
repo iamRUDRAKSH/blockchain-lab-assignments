@@ -40,9 +40,3 @@ Deploy the product registry smart contract to Polygon Amoy testnet for scalable 
 
 - `assignment-2/deploy-polygon.js`
 
-## Required Screenshots
-
-Place inside `assignment-2/screenshots/`:
-
-- `polygon-deployment-success.png`
-- `explorer-transaction.png`

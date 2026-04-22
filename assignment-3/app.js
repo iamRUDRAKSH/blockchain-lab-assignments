@@ -1,4 +1,4 @@
-const CONTRACT_ADDRESS = "YOUR_ASSIGNMENT_3_CONTRACT_ADDRESS";
+const CONTRACT_ADDRESS = "0x56d552b84F9706Fb4395542e776ae9067F544EeF";
 
 const CONTRACT_ABI = [
   "function registerProduct(string _name, string _details)",

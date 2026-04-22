@@ -34,13 +34,3 @@ Create a frontend that allows users to connect MetaMask and send smart contract 
 3. Run using static server (example: Live Server in VS Code).
 4. Open `assignment-3/index.html` and interact with UI.
 
-## Required Screenshots
-
-Place in `assignment-3/screenshots/`:
-
-- `wallet-connected.png`
-- `transaction-executed.png`
-
-## Optional Demo Video
-
-- Add short video in `assignment-3/demo/` (optional but recommended).
